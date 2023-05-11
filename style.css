@@ -1,0 +1,203 @@
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    /* background-image: url("https://w0.peakpx.com/wallpaper/710/399/HD-wallpaper-goodmorning-romance-sugar-abstract-beverage-winter-sweet-coffee-love-flavor-hot-drink.jpg"); */
+    background-size: 1400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-image: url("https://wallpaperaccess.com/full/6370008.jpg");  */
+    /* background-image: url("https://static.vecteezy.com/system/resources/thumbnails/001/134/113/small_2x/cup-of-coffee-on-blurred-background.jpg") */
+    background-image: url("https://img.freepik.com/premium-photo/ai-generated-hot-art-latte-coffee-cup-wooden-table-coffeeshop-blur-background_77186-4095.jpg");
+}
+
+/* css on H1  */
+h1 {
+    display: block;
+    text-align-last: center;
+    background-color: darksalmon;
+    padding: 1%;
+    font-size: 350%;
+    color: rgb(77, 2, 17);
+    margin: 0%;
+
+}
+
+h2 {
+    display: block;
+    text-align: center;
+    /* background-color: burlywood; */
+    background-color: antiquewhite;
+    font-size: 200%;
+    color: brown;
+    margin: 0%;
+}
+
+/* css on paragraph */
+.paragraph {
+    font-style: normal;
+    font-size: large;
+    color: brown;
+    /* background-color: antiquewhite; */
+    background-color: rgb(243, 183, 163);
+    padding-top: 11px;
+    margin: 0%;
+}
+
+#id1.paragraph {
+    padding-bottom: 20px;
+}
+
+/* css on navigation panel */
+.topnav {
+    background-color: burlywood;
+    overflow: auto;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: brown;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: underline;
+    font-size: 20px;
+    font-style: oblique;
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: wheat;
+    color: black;
+}
+
+/* search box css */
+* {
+    box-sizing: border-box;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+    padding: 3px;
+    font-size: 20px;
+    border: 1px solid grey;
+    float: left;
+    width: 220px;
+    background: #f1f1f1;
+    border-radius: 6px;
+    margin-left: 520px;
+    margin-top: 16px;
+}
+
+/* Style the submit button */
+form.example button {
+    float: left;
+    width: 0px;
+    height: 0px;
+    /* padding: 2px; */
+    background: burlywood;
+    color: white;
+    font-size: 16px;
+    border: 0px solid grey;
+    border-left: none;
+    /* Prevent double borders */
+    cursor: pointer;
+    margin-top: 7px;
+}
+
+
+
+/* picture wala part */
+.column1 {
+
+    column-count: 3;
+    background-color: rgb(243, 183, 163);
+    margin: 0%;
+    padding: 30px;
+}
+
+.quotes {
+    font-size: larger;
+    margin: 0%;
+    text-align: center;
+}
+
+/* css on about us wala part */
+.about-us {
+    display: block;
+    text-align: center;
+    padding: 4%;
+    font-size: xx-large;
+    font-style: italic;
+    color: brown;
+
+}
+
+/* apps icons */
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: double;
+    margin: 5px 2px;
+    border-radius: 70%;
+    /* align-items: center; */
+    /* align-content: center; */
+    display: block;
+    /* align-content: center;  */
+
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+    background: #f3127b;
+    color: white;
+    align-content: center;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    align-content: center;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+    align-content: center;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    align-content: center;
+}
+
+/* footer */
+.footer {
+    position: relative;
+    left: 0; 
+    bottom: 0;
+    width: 100%;
+    background-color: darksalmon;
+    color: rgb(77, 2, 17);
+    text-align: center;
+    font-style: italic;
+    /* font-size: 15px; */
+   padding-top: 2px;
+   padding-bottom: 1px;
+    
+     
+}
+
+.end {
+    margin-bottom: 50px;
+    text-align: center;
+}
